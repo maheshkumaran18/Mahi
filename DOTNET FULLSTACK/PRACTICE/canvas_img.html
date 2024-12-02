@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<small> Image to be used </small><br>
+<img id="img" src="https://www.moma.org/d/assets/W1siZiIsIjIwMjIvMDQvMDUvNTdnMml4eThtb180NzJfMTk0MV9DQ0NSX1ByZXNzX1NpdGUuanBnIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkwIC1yZXNpemUgMTE4NHg2NjZeIC1ncmF2aXR5IE5vcnRoIC1jcm9wIDExODR4NjY2KzArNzkiXV0/472_1941_CCCR-Press%20Site.jpg?sha=5bdb603f03db6661" alt="van gogh" width="400" height="300">
+
+<p> Canvas to be filled</p>
+<canvas id="myCanvas" width="700" height="600" style="border:2px solid black;" ></canvas>
+<p><button onClick="myCanvas()"> Try it </button></p>
+<script>
+function myCanvas(){
+var c= document.getElementById("myCanvas");
+var ctx= c.getContext("2d");
+var img = document.getElementById("img");
+ctx.drawImage(img,0,0);
+}
+</script>
+</body>
+</html>

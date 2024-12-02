@@ -1,0 +1,24 @@
+.container{
+    border:2px solid black;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;   
+    
+}
+
+.box{
+    
+    color:white;
+    padding: 10px;
+    
+    
+}
+@media screen and (min-width:768px){
+    .container{
+        flex-direction:row;
+        justify-content: flex-end;
+
+    }
+}
+    

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      pwd=prompt("Enter the password");
+      if(pwd=="mahesh"){
+        grd=prompt("SSLC or HSC ?");
+        if(grd=="SSLC"){
+            bd=prompt("enter the board of education");
+            if(bd=="state board"){
+                name=prompt("Enter the name");
+                reg_no=prompt("Enter the reg no.")
+                console.log("Name : "+ name);
+                console.log("Reg No. : "+reg_no);
+                console.log("1Oth MARKS STATEMENT :")
+        
+                tam=parseInt(prompt("enter the mark of TAMIL"));
+                if(tam>=35 && tam<=100){
+                    console.log("TAMIL - "+tam+"  Result - PASS ");
+                       
+                }
+                else if(tam<35 && tam>=0){
+                    console.log("TAMIL - "+tam +"  Result - FAIL ");
+                }
+                
+                eng=parseInt(prompt("enter the mark of ENGLISH"));
+                if(eng>=35 && eng<=100){
+                    console.log("ENGLISH - "+ eng +"  Result - PASS ");   
+                }
+                else if(eng<35 && eng>=0){
+                    console.log("ENGLISH - "+ eng +"  Result - FAIL ");
+                }
+                
+                mat=parseInt(prompt("enter the mark of MATHEMATICS"));
+                if(mat>=35 && mat<=100){
+                    console.log("MATHEMATICS - "+ mat +"  Result - PASS ");   
+                }
+                else if(mat<35 && mat>=0){
+                    console.log("MATHEMATICS - "+ mat +"  Result - FAIL ");
+                }
+                
+                sci=parseInt(prompt("enter the mark of SCIENCE"));
+                if(sci>=35 && sci<=100){
+                    console.log("SCIENCE - "+ sci +"  Result - PASS ");   
+                }
+                else if(sci<35 && sci>=0){
+                    console.log("SCIENCE - "+ sci +"  Result - FAIL ");
+                }
+            
+                soc=parseInt(prompt("enter the mark of SOCIAL SCIENCE"));
+                if(soc>=35 && soc<=100){
+                    console.log("SOCIAL SCIENCE - "+ soc +"  Result - PASS ");   
+                }
+                else if(soc<35 && soc>=0){
+                    console.log("SOCIAL SCIENCE - "+ soc +"  Result - FAIL ");
+                }
+                tot=tam+eng+mat+sci+soc;
+                console.log("Total Marks : "+tot+ " (500) ");
+                per=tot/5;
+                console.log("Percentage : "+ per+"%");
+                if(per>=91 && per<=100){
+                    console.log("Grade : A+")
+                }
+                else if(per>=81 && per<=90){
+                    console.log("Grade : A")
+                }
+                else if(per>=71 && per<=80){
+                    console.log("Grade : B+")
+                }
+                else if(per>=61 && per<=70){
+                    console.log("Grade : B")
+                }
+                else if(per>=51 && per<=60){
+                    console.log("Grade : C+")
+                }
+                else if(per>=41 && per<=50){
+                    console.log("Grade : C")
+                }
+                else if(per>=31 && per<=40){
+                    console.log("Grade : D+")
+                }
+                else if(per>=21 && per<=30){
+                    console.log("Grade : D")
+                }
+                else if(per>=11 && per<=20){
+                    console.log("Grade : E+")
+                }
+                else if(per>=0 && per<=10){
+                    console.log("Grade : E")
+                }
+                
+            
+            }
+            else if(bd=="CBSE"){
+                name=prompt("Enter the name");
+                reg=prompt("Enter the reg no.")
+                console.log("Name : "+ name);
+                console.log("Reg No. : "+reg);
+                console.log("1Oth MARKS STATEMENT :")
+        
+                tam=parseInt(prompt("enter the mark of TAMIL"));
+                if(tam>=35 && tam<=100){
+                    console.log("TAMIL - "+tam+"  Result - PASS ");   
+                }
+                else if(tam<35 && tam>=0){
+                    console.log("TAMIL - "+tam +"  Result - FAIL ");
+                }
+                
+                eng=parseInt(prompt("enter the mark of ENGLISH"));
+                if(eng>=35 && eng<=100){
+                    console.log("ENGLISH - "+ eng +"  Result - PASS ");   
+                }
+                else if(eng<35 && eng>=0){
+                    console.log("ENGLISH - "+ eng +"  Result - FAIL ");
+                }
+                
+                mat=parseInt(prompt("enter the mark of MATHEMATICS"));
+                if(mat>=35 && mat<=100){
+                    console.log("MATHEMATICS - "+ mat +"  Result - PASS ");   
+                }
+                else if(mat<35 && mat>=0){
+                    console.log("MATHEMATICS - "+ mat +"  Result - FAIL ");
+                }
+                
+                sci=parseInt(prompt("enter the mark of SCIENCE"));
+                if(sci>=35 && sci<=100){
+                    console.log("SCIENCE - "+ sci +"  Result - PASS ");   
+                }
+                else if(sci<35 && sci>=0){
+                    console.log("SCIENCE - "+ sci +"  Result - FAIL ");
+                }
+            
+                soc=parseInt(prompt("enter the mark of SOCIAL SCIENCE"));
+                if(soc>=35 && soc<=100){
+                    console.log("SOCIAL SCIENCE - "+ soc +"  Result - PASS ");   
+                }
+                else if(soc<35 && soc>=0){
+                    console.log("SOCIAL SCIENCE - "+ soc +"  Result - FAIL ");
+                }
+                tot=tam+eng+mat+sci+soc;
+                console.log("Total Marks : "+tot+ " (500) ");
+                per=tot/5;
+                console.log("Percentage : "+ per+"%");
+                if(per>=91 && per<=100){
+                    console.log("Grade : A+")
+                }
+                else if(per>=81 && per<=90){
+                    console.log("Grade : A")
+                }
+                else if(per>=71 && per<=80){
+                    console.log("Grade : B+")
+                }
+                else if(per>=61 && per<=70){
+                    console.log("Grade : B")
+                }
+                else if(per>=51 && per<=60){
+                    console.log("Grade : C+")
+                }
+                else if(per>=41 && per<=50){
+                    console.log("Grade : C")
+                }
+                else if(per>=31 && per<=40){
+                    console.log("Grade : D+")
+                }
+                else if(per>=21 && per<=30){
+                    console.log("Grade : D")
+                }
+                else if(per>=11 && per<=20){
+                    console.log("Grade : E+")
+                }
+                else if(per>=0 && per<=10){
+                    console.log("Grade : E")
+                }
+            }
+            else{
+            alert("Invalid");
+            }  
+        }
+        else if(grd=="HSC"){
+            name=prompt("Enter the Name");
+            reg=prompt("Enter the Reg NO.");
+            console.log("Name : "+ name);
+            console.log("Reg No. : "+reg);
+            grp=prompt("enter the Group");
+            if(grp=="Bio-maths"){
+                console.log("Group : BioMaths");
+                tam=parseInt(prompt("enter the mark of TAMIL"));
+                if(tam>=35 && tam<=100){
+                    console.log("TAMIL - "+tam+"  Result - PASS ");   
+                }
+                else if(tam<35 && tam>=0){
+                    console.log("TAMIL - "+tam +"  Result - FAIL ");
+                }
+                
+                eng=parseInt(prompt("enter the mark of ENGLISH"));
+                if(eng>=35 && eng<=100){
+                    console.log("ENGLISH - "+ eng +"  Result - PASS ");   
+                }
+                else if(eng<35 && eng>=0){
+                    console.log("ENGLISH - "+ eng +"  Result - FAIL ");
+                }
+                
+                mat=parseInt(prompt("enter the mark of MATHEMATICS"));
+                if(mat>=35 && mat<=100){
+                    console.log("MATHEMATICS - "+ mat +"  Result - PASS ");   
+                }
+                else if(mat<35 && mat>=0){
+                    console.log("MATHEMATICS - "+ mat +"  Result - FAIL ");
+                }
+                
+                bio=parseInt(prompt("enter the mark of BIOLOGY"));
+                if(bio>=35 && bio<=100){
+                    console.log("BIOLOGY - "+ bio +"  Result - PASS ");   
+                }
+                else if(bio<35 && bio>=0){
+                    console.log("BIOLOGY - "+ bio +"  Result - FAIL ");
+                }
+            
+                phy=parseInt(prompt("enter the mark of PHYSICS"));
+                if(phy>=35 && phy<=100){
+                    console.log("PHYSICS - "+ phy +"  Result - PASS ");   
+                }
+                else if(phy<35 && phy>=0){
+                    console.log("PHYSICS - "+ phy +"  Result - FAIL ");
+                }
+
+                che=parseInt(prompt("enter the mark of CHEMISTRY"));
+                if(che>=35 && che<=100){
+                    console.log("CHEMISTRY - "+ che +"  Result - PASS ");   
+                }
+                else if(che<35 && che>=0){
+                    console.log("CHEMISTRY - "+ che +"  Result - FAIL ");
+                }
+
+                tot=tam+eng+mat+bio+phy+che;
+                console.log("Total Marks : "+tot+ " (600) ");
+                per=tot/6;
+                console.log("Percentage : "+ per+"%");
+                if(per>=91 && per<=100){
+                    console.log("Grade : A+")
+                }
+                else if(per>=81 && per<=90){
+                    console.log("Grade : A")
+                }
+                else if(per>=71 && per<=80){
+                    console.log("Grade : B+")
+                }
+                else if(per>=61 && per<=70){
+                    console.log("Grade : B")
+                }
+                else if(per>=51 && per<=60){
+                    console.log("Grade : C+")
+                }
+                else if(per>=41 && per<=50){
+                    console.log("Grade : C")
+                }
+                else if(per>=31 && per<=40){
+                    console.log("Grade : D+")
+                }
+                else if(per>=21 && per<=30){
+                    console.log("Grade : D")
+                }
+                else if(per>=11 && per<=20){
+                    console.log("Grade : E+")
+                }
+                else if(per>=0 && per<=10){
+                    console.log("Grade : E")
+                }  
+            }
+            else if(grp=="Computer Science"){
+                console.log("Group : Computer Science");
+                tam=parseInt(prompt("enter the mark of TAMIL"));
+                if(tam>=35 && tam<=100){
+                    console.log("TAMIL - "+tam+"  Result - PASS ");   
+                }
+                else if(tam<35 && tam>=0){
+                    console.log("TAMIL - "+tam +"  Result - FAIL ");
+                }
+                
+                eng=parseInt(prompt("enter the mark of ENGLISH"));
+                if(eng>=35 && eng<=100){
+                    console.log("ENGLISH - "+ eng +"  Result - PASS ");   
+                }
+                else if(eng<35 && eng>=0){
+                    console.log("ENGLISH - "+ eng +"  Result - FAIL ");
+                }
+                
+                mat=parseInt(prompt("enter the mark of MATHEMATICS"));
+                if(mat>=35 && mat<=100){
+                    console.log("MATHEMATICS - "+ mat +"  Result - PASS ");   
+                }
+                else if(mat<35 && mat>=0){
+                    console.log("MATHEMATICS - "+ mat +"  Result - FAIL ");
+                }
+                
+                cs=parseInt(prompt("enter the mark of COMPUTER SCIENCE"));
+                if(cs>=35 && cs<=100){
+                    console.log("COMPUTER SCIENCE - "+ cs +"  Result - PASS ");   
+                }
+                else if(cs<35 && cs>=0){
+                    console.log("COMPUTER SCIENCE - "+ cs +"  Result - FAIL ");
+                }
+            
+                phy=parseInt(prompt("enter the mark of PHYSICS"));
+                if(phy>=35 && phy<=100){
+                    console.log("PHYSICS - "+ phy +"  Result - PASS ");   
+                }
+                else if(phy<35 && phy>=0){
+                    console.log("PHYSICS - "+ phy +"  Result - FAIL ");
+                }
+
+                che=parseInt(prompt("enter the mark of CHEMISTRY"));
+                if(che>=35 && che<=100){
+                    console.log("CHEMISTRY - "+ che +"  Result - PASS ");   
+                }
+                else if(che<35 && che>=0){
+                    console.log("CHEMISTRY - "+ che +"  Result - FAIL ");
+                }
+
+                tot=tam+eng+mat+cs+phy+che;
+                console.log("Total Marks : "+tot+ " (600) ");
+                per=tot/6;
+                console.log("Percentage : "+ per+"%");
+                if(per>=91 && per<=100){
+                    console.log("Grade : A+")
+                }
+                else if(per>=81 && per<=90){
+                    console.log("Grade : A")
+                }
+                else if(per>=71 && per<=80){
+                    console.log("Grade : B+")
+                }
+                else if(per>=61 && per<=70){
+                    console.log("Grade : B")
+                }
+                else if(per>=51 && per<=60){
+                    console.log("Grade : C+")
+                }
+                else if(per>=41 && per<=50){
+                    console.log("Grade : C")
+                }
+                else if(per>=31 && per<=40){
+                    console.log("Grade : D+")
+                }
+                else if(per>=21 && per<=30){
+                    console.log("Grade : D")
+                }
+                else if(per>=11 && per<=20){
+                    console.log("Grade : E+")
+                }
+                else if(per>=1 && per<=10){
+                    console.log("Grade : E")
+                }  
+            }
+            else if(grp=="Pure Science"){
+                console.log("Group : Pure Science");
+                tam=parseInt(prompt("enter the mark of TAMIL"));
+                if(tam>=35 && tam<=100){
+                    console.log("TAMIL - "+tam+"  Result - PASS ");   
+                }
+                else if(tam<35 && tam>=0){
+                    console.log("TAMIL - "+tam +"  Result - FAIL ");
+                }
+                
+                eng=parseInt(prompt("enter the mark of ENGLISH"));
+                if(eng>=35 && eng<=100){
+                    console.log("ENGLISH - "+ eng +"  Result - PASS ");   
+                }
+                else if(eng<35 && eng>=0){
+                    console.log("ENGLISH - "+ eng +"  Result - FAIL ");
+                }
+                
+                bot=parseInt(prompt("enter the mark of BOTANY"));
+                if(bot>=35 && bot<=100){
+                    console.log("BOTANY - "+ bot +"  Result - PASS ");   
+                }
+                else if(bot<35 && bot>=0){
+                    console.log("BOTANY - "+ bot +"  Result - FAIL ");
+                }
+                
+                zoo=parseInt(prompt("enter the mark of ZOOLOGY"));
+                if(zoo>=35 && zoo<=100){
+                    console.log("ZOOLOGY - "+ zoo +"  Result - PASS ");   
+                }
+                else if(zoo<35 && zoo>=0){
+                    console.log("ZOOLOGY - "+ zoo +"  Result - FAIL ");
+                }
+            
+                phy=parseInt(prompt("enter the mark of PHYSICS"));
+                if(phy>=35 && phy<=100){
+                    console.log("PHYSICS - "+ phy +"  Result - PASS ");   
+                }
+                else if(phy<35 && phy>=0){
+                    console.log("PHYSICS - "+ phy +"  Result - FAIL ");
+                }
+
+                che=parseInt(prompt("enter the mark of CHEMISTRY"));
+                if(che>=35 && che<=100){
+                    console.log("CHEMISTRY - "+ che +"  Result - PASS ");   
+                }
+                else if(che<35 && che>=0){
+                    console.log("CHEMISTRY - "+ che +"  Result - FAIL ");
+                }
+
+                tot=tam+eng+bot+zoo+phy+che;
+                console.log("Total Marks : "+tot+ " (600) ");
+                per=tot/6;
+                console.log("Percentage : "+ per+"%");
+                if(per>=91 && per<=100){
+                    console.log("Grade : A+")
+                }
+                else if(per>=81 && per<=90){
+                    console.log("Grade : A")
+                }
+                else if(per>=71 && per<=80){
+                    console.log("Grade : B+")
+                }
+                else if(per>=61 && per<=70){
+                    console.log("Grade : B")
+                }
+                else if(per>=51 && per<=60){
+                    console.log("Grade : C+")
+                }
+                else if(per>=41 && per<=50){
+                    console.log("Grade : C")
+                }
+                else if(per>=31 && per<=40){
+                    console.log("Grade : D+")
+                }
+                else if(per>=21 && per<=30){
+                    console.log("Grade : D")
+                }
+                else if(per>=11 && per<=20){
+                    console.log("Grade : E+")
+                }
+                else if(per>=1 && per<=10){
+                    console.log("Grade : E")
+                }  
+                
+            }
+
+
+        }
+        else{
+            alert("Invalid");
+        }
+
+      }
+      else{
+        alert("The password is incorrect");
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 1.5rem;
+}
+.hero{
+    align-items: center;
+    justify-content: center;
+    background: url(/jeremy-thomas-E0AHdsENmDg-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;   
+}
+p{
+    color: white;
+    background-color: rgba(0,0,0, 0.6);
+    font-size: 2rem;
+    padding: 1.5rem;
+    letter-spacing: 1px;
+}
+@media screen and (min-width: 768px) {
+    .hero {
+      background: url(../images/background_w853.jpg) no-repeat;
+      background-size: cover;
+    }
+    .hero .tagline {
+      font-size: 3rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .hero {
+      background: url(../images/background_w1228.jpg) no-repeat;
+      background-size: cover;
+    }
+    h1 {
+      font-size: 6rem;
+    }
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .hero {
+      background: url(../images/background_w1440.jpg) no-repeat;
+      background-size: cover;
+    }
+    h1 {
+      font-size: 9rem;
+    }
+  }

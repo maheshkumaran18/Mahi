@@ -1,0 +1,25 @@
+.one{
+    background-color: gold;
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+.two{
+    background-color: tomato;
+    height: 300px;
+    width: 50%;
+    float: right;    
+}
+.three{
+    background-color: dodgerblue;
+    height: 300px;
+    width: 50%;
+    float: left;
+   
+}
+.four{
+    background-color: greenyellow;
+    height: 300px;
+    width: 50%; 
+    float: right;
+}

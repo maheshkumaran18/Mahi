@@ -1,0 +1,13 @@
+input{
+    border: 2px solid rgb(177, 169, 169);
+    border-style: inset;
+}
+li{
+    padding-bottom: 2px;
+}
+fieldset{
+    border: 2px solid black;
+}
+.btn{
+    border-radius: 10px;
+}

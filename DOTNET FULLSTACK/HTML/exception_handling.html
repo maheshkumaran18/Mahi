@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        try{
+           let num=prompt("enter the no.");
+           if(num==5){
+            throw "this number is not available";
+           } 
+           else if(isNaN(num)){
+            throw "should be number";
+           }
+           console.log(num**3);
+
+        }
+        catch (error){
+            console.log(error);
+        }
+        finally{
+            console.log("You are dead!!!");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let result;
+result = Boolean('');
+console.log(result); 
+
+result = Boolean(0);
+console.log(result); 
+
+result = Boolean(undefined);
+console.log(result); 
+
+result = Boolean(null);
+console.log(result); 
+
+result = Boolean(NaN);
+console.log(result); 
+
+//All other values give true
+
+result = Boolean(2222);
+console.log(result);
+
+result = Boolean('hello');
+console.log(result);
+
+result = Boolean(" ");
+console.log(result);
+
+
+    </script>
+</body>
+</html>

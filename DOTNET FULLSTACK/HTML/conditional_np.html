@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+let year = prompt("enter the year");
+      if (year <= 2001) {
+        let month = prompt("enter the no. of month");
+        if (month > 3) {
+          let date = prompt("enter the date");
+          if (date < 10) {
+            console.log("eligible for army");
+          } else {
+            console.log("date exceeded");
+          }
+        } else {
+          console.log("month isnt within march");
+        }
+      } else {
+        console.log("age is not eligible for army");
+      }
+</script>
+</body>
+</html>

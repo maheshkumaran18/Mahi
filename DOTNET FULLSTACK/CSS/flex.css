@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.container{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 5px solid black;
+}
+img{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+}
+#one{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 0%;
+    margin-bottom: 40px;
+}
+#two{
+    height: 200px;
+    background-color: aqua;
+    margin-bottom: 40px;
+    padding:0 40px;
+}
+#three{
+    background-color: tomato;
+    height: 200px;
+}
+#four{
+    height: 200px;
+    background-color: blue;
+    padding: 0 40px ;
+}
+#five{
+    background-color: yellowgreen;
+    height: 200px;
+}
+img{
+    height: 200px;
+    width: 300px;
+    padding:0 515px;
+}
+p{
+    color:red;
+    text-align: center;   
+}
